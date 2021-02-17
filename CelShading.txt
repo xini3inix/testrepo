@@ -1,0 +1,32 @@
+Hey there!
+
+It's practically the same method as in Borderlands 2 and The Pre-Sequel.
+
+    Go to: \Documents\My Games\Borderlands Game of the Year\WillowGame\Config
+
+    Open "WillowEngine.ini"
+
+    Locate "DefaultPostProcessName=WillowEngineMaterials.WillowScenePostProcess"
+
+    Change it to some of your favorite. (Remember to make a copy of your file).
+
+This are the options:
+
+1. Default:
+DefaultPostProcessName=WillowEngineMaterials.WillowScenePostProcess
+
+2. RyanScenePostProcess:
+DefaultPostProcessName=WillowEngineMaterials.RyanScenePostProcess
+
+3. ScenePostProcess:
+DefaultPostProcessName=EngineMaterials.ScenePostProcess
+
+4. CinematicScenePostProcess:
+DefaultPostProcessName=WillowEngineMaterials.CinematicScenePostProcess
+
+In your case, the best option is number 4.
+
+Edit: If you can't find the DefaultPostProcessName line in your WillowEngine.ini file, try run the game and make some changes in video settings, this will force the 
+game to save settings in your WillowEngine.ini file.
+
+Cheers! 
